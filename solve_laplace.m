@@ -1,7 +1,8 @@
 function [] = solve_laplace (psi, alpha, k )
-% Author: Viktoria Noel, Date: 13/02/2017
+
 % This function solves the Laplace's equation using the over-relaxation method
 % example run: solve_laplace(ones(7,7),1.7,30)
+
 % Input:
 % * psi: 2D matrix containing the initial psi values, including boundaries.
 % * alpha: the coefficient of over-relaxation.
