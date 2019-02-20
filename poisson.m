@@ -1,6 +1,5 @@
 function [] = poisson ( alpha )
-% Author: Viktoria Noel , Date: 14/02/2018
-% Solve Poisson?s equation, i.e. del^2 \psi = source
+% Solve Poisson's equation, i.e. del^2 \psi = source
 % Input:
 % * psi: 2D matrix containing the initial grid values.
 % * fixed_psi: 2D matrix that flags which elements in the grid of psi are constants
